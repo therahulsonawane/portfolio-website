@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+/* Styling Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+}
+ul {
+  display: flex;
+}
+.links,
+ul,
+li {
+  list-style-type: none;
+  gap: 50px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Styling Hero Section */
+
+.hero {
+  display: flex;
+  background-color: #fdf8f7;
+  padding: 20px 80px;
+}
+.info {
+  max-width: 50%;
+  margin-top: 100px;
+}
+p {
+  margin: 12px;
+  font-size: 18px;
+}
+.space {
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+}
+h1 {
+  margin: 12px;
+  font-size: 60px;
+  color: #15295f;
+}
+.intro {
+  font-size: 22px;
+  font-weight: 900;
+  color: #fd6d0a;
+}
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #15295f;
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: 400;
+  color: #6f6b80;
+}
+.buttons {
+  margin-top: 30px;
+}
+.btn1 {
+  background-color: #fd6d0a;
+  color: white;
+  width: 180px;
+  height: 50px;
+  border: none;
+  font-size: 18px;
+  border-radius: 25px;
+  margin: 25px;
+}
+.btn2 {
+  color: #fd6d0a;
+  background-color: #fdf8f7;
+  width: 140px;
+  height: 50px;
+  border: 1px solid #fd6d0a;
+  font-size: 18px;
+  border-radius: 25px;
+}
+
+/* information badge Styling */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: white;
+  position: relative;
+  bottom: 60px;
+  margin: 0 150px;
+  padding: 30px;
+  border-radius: 100px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.divider {
+  height: 80px; /* Adjust as needed */
+  width: 0.5px; /* Thin line */
+  background-color: #c9c9c9; /* Line color */
+  margin: 0 20px; /* Spacing around the divider */
+}
+.icon {
+  width: 80px;
+  height: 80px;
+  background-color: #fd6d0a;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconimg {
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling of service section */
+
+.services {
+  text-align: center;
+  padding: 10px;
+}
+
+.ptitle {
+  color: #fd6d0a;
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 500;
+}
+.serviceTitle {
+  color: #15295f;
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 700;
+}
+#serivce {
+  display: flex;
+  flex: wrap;
+  flex-direction: row;
+  padding: 20px;
+  gap: 10px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 25%;
+  height: 250px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.cardicon {
+  width: 80px;
+  height: 80px;
+  background-color: #fd6d0a;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+/* My experience Area */
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 30px 150px;
+}
+
+.skill {
+  width: 45%;
+  margin-bottom: 20px;
+  display: inline-table;
+}
+
+.skill-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #2b3a67; /* Navy blue color */
+  margin-bottom: 5px;
+}
+
+.skill-bar {
+  background-color: #e5e5e5;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 10px;
+}
+
+.skill-percentage {
+  background-color: #ff6a00;
+  text-align: right;
+  padding-right: 10px;
+  color: black;
+  line-height: 10px;
+  height: 100%;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+/* certificate Slider */
+
+.swiper {
+  height: 100%;
+  width: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 30%;
+  height: 30%;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
